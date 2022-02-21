@@ -80,3 +80,7 @@ h1 {
     font-weight: bold;
     padding: 2% 0 1%;
 }
+
+li {
+    padding: 10px 0;
+}
