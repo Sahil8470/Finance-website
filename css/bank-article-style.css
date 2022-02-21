@@ -10,6 +10,10 @@ h1 {
 }
 
 /* Navigation Bar */
+/* nav {
+    background-color: #00B4D8;
+} */
+
 .navigation-bar {
     padding: 0 25px;
 }
@@ -31,13 +35,31 @@ h1 {
 }
 
 .content-table {
-    padding-top: 50px;
-    padding-left: 75px;
+    padding-top: 110px;
+    padding-left: 50px;
     
 }
 
+.content-table-head {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.content-table-links {
+    text-decoration: none;
+    line-height: 2;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    color:#a6a4a4;
+}
+
+.content-table-links:hover {
+    color: #1b49e0;
+}
+
 .content-description-column {
-    padding: 100px 100px 100px 0;
+    padding: 100px 0;
+    padding-right: 7%; 
     position: absolute;
 }
 
@@ -45,9 +67,7 @@ h1 {
     height:400px;
     position: relative;
 }
-/* .content-table-column h3 {
-    font-weight: bold; 
-} */
+
 
 .subheadings {
     font-weight: bold;
@@ -61,4 +81,8 @@ h1 {
 .bank-account-types-headings {
     font-weight: bold;
     padding: 2% 0 1%;
+}
+
+li {
+    padding: 10px 0;
 }
