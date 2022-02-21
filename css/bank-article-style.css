@@ -36,6 +36,23 @@ h1 {
     
 }
 
+.content-table-head {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.content-table-links {
+    text-decoration: none;
+    line-height: 2;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    color:#a6a4a4;
+}
+
+.content-table-links:hover {
+    color: #1b49e0;
+}
+
 .content-description-column {
     padding: 100px 0;
     padding-right: 7%; 
