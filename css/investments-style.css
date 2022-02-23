@@ -1,0 +1,73 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 3%;
+    font-size: 3rem;
+}
+
+/* Navigation Bar */
+/* nav {
+    background-color: #00B4D8;
+} */
+
+.navigation-bar {
+    padding: 0 25px;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+
+/* Content */
+
+#content {
+    margin-top: 56px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.content-table {
+    padding-top: 110px;
+    padding-left: 50px;
+    
+}
+
+.content-table-head {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.content-table-links {
+    text-decoration: none;
+    line-height: 2;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    color:#a6a4a4;
+}
+
+.content-table-links:hover {
+    color: #1b49e0;
+}
+
+.content-description-column {
+    padding: 100px 0;
+    padding-right: 7%; 
+    position: absolute;
+}
+
+.content-table-column {
+    height:400px;
+    position: relative;
+}
+
+.subheadings {
+    font-weight: bold;
+    padding: 3% 0 2%;
+}
