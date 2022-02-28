@@ -1,0 +1,21 @@
+nav{
+    display: block !important;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.table{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+}
